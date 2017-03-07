@@ -16,7 +16,7 @@ public class TestJDBCConnect {
 
     public static void main(String[] args) {
         //try(Connection con=DriverManager.getConnection("jdbc:mysql://localhost/?useSSL=false","yourdbusername","yourdbuserpassword")){
-        try (Connection con = DriverManager.getConnection("jdbc:mysql://54.197.22.56:3306/?useSSL=false", "jdoe", "mucis")) {
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://34.207.8.40:3306/?useSSL=false", "jdoe", "mucis")) {
             System.out.println("Connected");
         } catch (Exception e) {
             e.printStackTrace();
